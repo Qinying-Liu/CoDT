@@ -15,7 +15,7 @@ PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKU
 1. Configuration:
    
    "./config/ntu_to_pkummd.yaml"
-2. Batch process: 
+2. Data loading: 
    
    "./feeder/feeder.py"  
 3. Model definition:
