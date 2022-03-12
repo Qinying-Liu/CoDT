@@ -1,0 +1,7 @@
+torch
+opencv_python
+PyYAML
+h5py
+tensorboardX
+scipy
+sklearn

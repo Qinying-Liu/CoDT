@@ -1,0 +1,79 @@
+work_dir: work_dir/pku_to_mmd
+
+source_feeder: feeder.feeder.Feeder_single
+source_feeder_args:
+  data_path: # NTU train split path
+  label_path: # NTU train label path
+  shear_amplitude: 0.5
+  temperal_padding_ratio: 6
+
+target_feeder: feeder.feeder.Feeder_quadruple
+target_feeder_args:
+  data_path: # PKUMMD train split path
+  label_path: # PKUMMD train label path
+  shear_amplitude: 0.5
+  temperal_padding_ratio: 6
+  shear_amplitude1: 0.5
+  temperal_padding_ratio1: 6
+
+train_feeder: feeder.feeder.Feeder_dual
+train_feeder_args:
+  data_path: # PKUMMD train split path
+  label_path: # PKUMMD train label path
+  shear_amplitude: -1
+  temperal_padding_ratio: -1
+
+test_feeder: feeder.feeder.Feeder_dual
+test_feeder_args:
+  data_path: # PKUMMD val split path
+  label_path: # PKUMMD val label path
+  shear_amplitude: -1
+  temperal_padding_ratio: -1
+  mmap: True
+
+model: net.model.CoDT
+model_args:
+  base_encoder: net.st_gcn.Model
+  base_encoder1: net.st_gcn.Model
+  graph_args:
+    layout: 'ntu-rgb+d'
+    strategy: 'spatial'
+  graph_args1:
+    layout: 'ntu-rgb+d'
+    strategy: 'spatial'
+  feature_dim: 128
+  queue_size: 18841
+  momentum: 0.999
+  Temperature: 0.07
+  in_channels: 3
+  hidden_channels: 16
+  hidden_dim: 256
+  num_class: 60
+  dropout: 0.5
+  edge_importance_weighting: True
+  num_cluster: 51
+
+nesterov: False
+weight_decay: 1e-4
+base_lr: 0.1
+optimizer: SGD
+step: [150]
+
+device: [0]
+batch_size: 128
+num_epoch: 300
+start_epoch: 0
+
+co_training: True
+co_epoch: 150
+lam: 10
+mask_p: 0.1
+
+w_ce: 1.
+w_dec: 20.
+w_un: 1.
+w_cls: 5.
+w_cls1: 10.
+
+save_interval: -1
+eval_interval: 5
