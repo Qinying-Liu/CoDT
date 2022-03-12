@@ -10,7 +10,7 @@ Please refer to “requirements.txt” for detailed information.
 ## Data Preparation
 1. Download the NTU-RGB+D 120 dataset from [https://github.com/shahroudy/NTURGB-D](https://github.com/shahroudy/NTURGB-D) and
 PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html](https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html). 
-2. Follow [https://github.com/LinguoLi/CrosSCLR](https://github.com/shahroudy/NTURGB-D) to preprocess the datasets.
+2. Follow [https://github.com/LinguoLi/CrosSCLR](https://github.com/LinguoLi/CrosSCLR) to preprocess the datasets.
 ## Core Files
 1. Configuration:
    
