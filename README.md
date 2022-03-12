@@ -6,7 +6,11 @@ python == 3.7.4 <br>
 pytorch == 1.7.1 <br>
 CUDA == 10.1 <br>
 Please refer to “requirements.txt” for detailed information.
-# 
+# Core Files
+1. Model definition:
+   ./net/model.py
+2. Training process: 
+   ./processor/main.py
 # Data Preparation
 1. Download the NTU-RGB+D 120 dataset from [https://github.com/shahroudy/NTURGB-D](https://github.com/shahroudy/NTURGB-D) and
 PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html](https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html). 
