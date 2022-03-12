@@ -14,7 +14,7 @@ files.
 # Train and Evaluate
 1. Fill the “config/ntu_to_pkummd.yaml” with the stored paths of dataset. <br>
 2. Train the model by run 
-   '''
+   ```
    bash main.sh
-   '''
+   ```
 3. The models would be automatically evaluated every 5 epochs, and the log file and checkpoints would be saved in the folder “work_dir/ntu_to_mmd”.
