@@ -7,17 +7,23 @@ python == 3.7.4 <br>
 pytorch == 1.7.1 <br>
 CUDA == 10.1 <br>
 Please refer to “requirements.txt” for detailed information.
-## Core Files
-1. Model definition:
-
-   ./net/model.py
-2. Training process: 
-
-   ./processor/main.py
 ## Data Preparation
 1. Download the NTU-RGB+D 120 dataset from [https://github.com/shahroudy/NTURGB-D](https://github.com/shahroudy/NTURGB-D) and
 PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html](https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html). 
 2. Follow [https://github.com/LinguoLi/CrosSCLR](https://github.com/shahroudy/NTURGB-D) to preprocess the datasets.
+## Core Files
+1. Configuration:
+   
+   ./config/ntu_to_pkummd.yaml
+2. Batch process: 
+   
+   ./feeder/feeder.py  
+3. Model definition:
+
+   ./net/model.py
+4. Training process: 
+
+   ./processor/main.py
 ## Train and Evaluate
 1. Fill the “config/ntu_to_pkummd.yaml” with the stored paths of dataset. <br>
 2. Train the model by run 
