@@ -1,7 +1,7 @@
 # Introduction
 This repository is used for double-blind submission. It can reproduce the main results on the task of NTU-60+ -> PKUMMD. We choose this task for instance since the datasets are simpler to access and process. This repository is based on [https://github.com/LinguoLi/CrosSCLR](https://github.com/LinguoLi/CrosSCLR).
 # Install & Requirements
-We conduct experiments on the following environment:
+We conduct experiments on the following environment: <br>
 python == 3.7.4 <br>
 pytorch == 1.7.1 <br>
 CUDA == 10.1 <br>
