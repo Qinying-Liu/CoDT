@@ -14,16 +14,16 @@ PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKU
 ## Core Files
 1. Configuration:
    
-   ./config/ntu_to_pkummd.yaml
+   "./config/ntu_to_pkummd.yaml"
 2. Batch process: 
    
-   ./feeder/feeder.py  
+   "./feeder/feeder.py"  
 3. Model definition:
 
-   ./net/model.py
+   "./net/model.py"
 4. Training process: 
 
-   ./processor/main.py
+   "./processor/main.py"
 ## Train and Evaluate
 1. Fill the “config/ntu_to_pkummd.yaml” with the stored paths of dataset. <br>
 2. Train the model by run 
