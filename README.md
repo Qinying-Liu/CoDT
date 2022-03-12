@@ -7,7 +7,9 @@ pytorch == 1.7.1
 CUDA == 10.1
 Please refer to “requirements.txt” for detailed information.
 # Data Preparation
-First we download the NTU-RGB+D 120 dataset [https://github.com/shahroudy/NTURGB-D](https://github.com/shahroudy/NTURGB-D) and
-PKU Multi-Modality dataset [https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html](https://github.com/shahroudy/NTURGB-D). Then we
+First we download the NTU-RGB+D 120 dataset from [https://github.com/shahroudy/NTURGB-D](https://github.com/shahroudy/NTURGB-D) and
+PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html](https://github.com/shahroudy/NTURGB-D). Then we
 follow the [https://github.com/LinguoLi/CrosSCLR](https://github.com/shahroudy/NTURGB-D) to preprocess the datasets and get the “.npy”
-files.
+files. 
+# Train and Evaluate
+
