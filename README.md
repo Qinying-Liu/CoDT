@@ -8,7 +8,7 @@ CUDA == 10.1 <br>
 Please refer to “requirements.txt” for detailed information.
 # Data Preparation
 1. Download the NTU-RGB+D 120 dataset from [https://github.com/shahroudy/NTURGB-D](https://github.com/shahroudy/NTURGB-D) and
-PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html](https://github.com/shahroudy/NTURGB-D). 
+PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html](https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html). 
 2. Follow [https://github.com/LinguoLi/CrosSCLR](https://github.com/shahroudy/NTURGB-D) to preprocess the datasets.
 # Train and Evaluate
 1. Fill the “config/ntu_to_pkummd.yaml” with the stored paths of dataset. <br>
