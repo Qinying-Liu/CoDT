@@ -1,6 +1,6 @@
 # CoDT
 ## Introduction
-This repository is used for double-blind submission. It can reproduce the main results on the task of NTU-60+ -> PKUMMD. We choose this task as example because the datasets are easier to access and process. This repository is mainly based on [https://github.com/LinguoLi/CrosSCLR](https://github.com/LinguoLi/CrosSCLR).
+This repository is used for CoDT. It can reproduce the main results on the task of NTU-60+ -> PKUMMD. We choose this task as example because the datasets are easier to access and process. This repository is mainly based on [https://github.com/LinguoLi/CrosSCLR](https://github.com/LinguoLi/CrosSCLR).
 ## Install & Requirements
 We conduct experiments on the following environment: <br>
 python == 3.7.4 <br>
