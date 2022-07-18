@@ -1,6 +1,6 @@
 # CoDT
 ## Introduction
-This repository is used for CoDT (Collaborating Domain-shared and Target-specific Feature Clustering for Cross-domain 3D Action Recognition), which is accepted by ECCV2022. It can reproduce the main results on the task of NTU-60+ -> PKUMMD. We choose this task as example because the datasets are easier to access and process. This repository is mainly based on [https://github.com/LinguoLi/CrosSCLR](https://github.com/LinguoLi/CrosSCLR). This is the initial version of the code, which will be further revised and updated in the future.
+This repository is used for CoDT (Collaborating Domain-shared and Target-specific Feature Clustering for Cross-domain 3D Action Recognition), which is accepted by ECCV2022. It can reproduce the main results on the task of NTU-60+ -> PKUMMD. We choose this task as example because the datasets are easier to access and process. This repository is mainly based on [https://github.com/LinguoLi/CrosSCLR](https://github.com/LinguoLi/CrosSCLR). This is the initial version of the code, which has not been tested fully and will be further revised in the future.
 ## Install & Requirements
 We conduct experiments on the following environment: <br>
 python == 3.7.4 <br>
