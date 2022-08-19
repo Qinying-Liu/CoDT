@@ -33,3 +33,16 @@ PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKU
    bash main.sh
    ```
 3. The models would be automatically evaluated every 5 epochs, and the log file and checkpoints would be saved in the folder `work_dir/ntu_to_mmd`.
+
+## Citation
+~~~~
+@article{liu2022collaborating,
+  title={Collaborating Domain-shared and Target-specific Feature Clustering for Cross-domain 3D Action Recognition},
+  author={Liu, Qinying and Wang, Zilei},
+  journal={arXiv preprint arXiv:2207.09767},
+  year={2022}
+}
+~~~~
+
+## Contact
+If you have any question or comment, please contact the first author of the paper - Qinying Liu (lydyc@mail.ustc.edu.cn).
