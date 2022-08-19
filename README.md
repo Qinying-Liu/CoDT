@@ -8,7 +8,7 @@ We conduct experiments on the following environment:
 * pytorch == 1.7.1 
 * CUDA == 10.1 
 
-Please refer to “requirements.txt” for detailed information.
+Please refer to 'requirements.txt' for detailed information.
 ## Data Preparation
 1. Download the NTU-RGB+D 120 dataset from [https://github.com/shahroudy/NTURGB-D](https://github.com/shahroudy/NTURGB-D) and
 PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html](https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html). 
@@ -16,20 +16,20 @@ PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKU
 ## Core Files
 1. Configuration:
    
-   "./config/ntu_to_pkummd.yaml"
+   './config/ntu_to_pkummd.yaml'
 2. Data loading: 
    
-   "./feeder/feeder.py"  
+   './feeder/feeder.py'  
 3. Model definition:
 
-   "./net/model.py"
+   './net/model.py'
 4. Training process: 
 
-   "./processor/main.py"
+   './processor/main.py'
 ## Train and Evaluate
 1. Fill the “config/ntu_to_pkummd.yaml” with the stored paths of dataset. <br>
 2. Train the model by run 
    ```
    bash main.sh
    ```
-3. The models would be automatically evaluated every 5 epochs, and the log file and checkpoints would be saved in the folder “work_dir/ntu_to_mmd”.
+3. The models would be automatically evaluated every 5 epochs, and the log file and checkpoints would be saved in the folder 'work_dir/ntu_to_mmd'.
