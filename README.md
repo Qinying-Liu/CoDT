@@ -42,11 +42,13 @@ PKU Multi-Modality dataset from [https://www.icst.pku.edu.cn/struct/Projects/PKU
 
 ## Citation
 ~~~~
-@article{liu2022collaborating,
-  title={Collaborating Domain-shared and Target-specific Feature Clustering for Cross-domain 3D Action Recognition},
+@inproceedings{liu2022collaborating,
+  title={Collaborating Domain-Shared and Target-Specific Feature Clustering for Cross-domain 3D Action Recognition},
   author={Liu, Qinying and Wang, Zilei},
-  journal={arXiv preprint arXiv:2207.09767},
-  year={2022}
+  booktitle={Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part IV},
+  pages={137--155},
+  year={2022},
+  organization={Springer}
 }
 ~~~~
 
